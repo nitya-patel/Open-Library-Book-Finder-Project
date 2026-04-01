@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Library Book Finder</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1>📚 Open Library Book Finder</h1>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search books by title..."
+            />
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <p id="loading" class="hidden">Loading books...</p>
+
+        <div id="bookContainer" class="book-grid"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
